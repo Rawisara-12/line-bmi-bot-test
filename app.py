@@ -7,8 +7,8 @@ import numpy as np
 import os
 import tensorflow as tf
 app = Flask(__name__)
-line_bot_api = LineBotApi("kQB6gGfE4DGid3mNVLHB6K2UR33amzeY/HVmKPzNCR6O8Zvy1OBHehpRjMDIfh0rHFqWTla6zTucQm226FAt6/vhTXqVuUxa/1Ebpjoq7T4TZqu57mV5su2b/r4wC2YNSpmJI0a0Y2uTJQ11nLJw0gdB04t89/1O/w1cDnyilFU=")
-handler = WebhookHandler("4d635c6839b20911f6d904274eb908c6")
+line_bot_api = LineBotApi("fkzpG65r65ziCzYSFVzgYTkUkHcEY9kA2g+Q0AEQXyedgFeVIYEDSalRQoPblZlIHFqWTla6zTucQm226FAt6/vhTXqVuUxa/1Ebpjoq7T65QhkoadXnmcobyyR3IXqQwiJdi2xX8j6vz0s7u8tspgdB04t89/1O/w1cDnyilFU=")
+handler = WebhookHandler("703a0d03e0a710133195e50703972a2e")
 model = None
 def load_model() :
     global model
